@@ -211,8 +211,8 @@ footer {
 
   .table-container {
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-    grid-gap: 13%;
-    margin-left: -20%;
+    grid-gap: 15%;
+    margin-left: -10%;
     margin-top: 5%;
     margin-right: 100%;
     font-size: 70%;
@@ -220,7 +220,7 @@ footer {
   
   .table-cell {
     width: 160%;
-    height: 200%;
+    height: 240%;
     margin-top: ;
   }
 
