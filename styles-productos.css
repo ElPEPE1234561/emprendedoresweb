@@ -215,11 +215,6 @@ footer {
 
 @media screen and (max-width: 768px) {
   /* Modifica los estilos para pantallas más pequeñas */
-
-.content {
- margin-bottom: 10%;
-}
- 
  body {
   overflow: scroll;
  }
@@ -246,7 +241,7 @@ footer {
   .table-cell {
     width: 130%;
     height: 200%;
-    margin-top: 5%;
+    margin-top: ;
   }
 
   .table-cell::after {
