@@ -233,14 +233,14 @@ footer {
   .table-container {
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 20%;
-    margin-left: 10px;
+    margin-left: 7px;
     margin-top: 5%;
     margin-right: 20px;
     font-size: 50%;
   }
   
   .table-cell {
-    width: 110%;
+    width: 120%;
     height: 200%;
     margin-top: 5%;
    width: 130%;
