@@ -1,4 +1,6 @@
 /* Estilos para el producto 1101 Repostería */
+
+/* Estilos generales */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -33,6 +35,7 @@ h1, h2 {
     margin: 0;
 }
 
+/* Sección de producto */
 section {
     padding: 50px;
 }
@@ -43,7 +46,6 @@ section {
     align-items: center;
     justify-content: flex-start;
     padding: 100px;
-    
 }
 
 .product-image {
@@ -72,7 +74,6 @@ section {
     margin-right: 0%;
     margin-top: 1%;   
 }
-
 
 .product-image::before {
     background-color: black;
@@ -110,6 +111,33 @@ section {
     font-size: 85%;
 }
 
+/* Estilos responsive */
+@media (max-width: 768px) {
+    /* Ajustar padding en sección de producto para pantallas pequeñas */
+    .product-container {
+        padding: 50px;
+    }
+
+    /* Ajustar tamaño de la imagen del producto para pantallas pequeñas */
+    .product-image {
+        width: 150px;
+        height: 150px;
+        margin-top: -6%;
+    }
+
+    /* Ajustar margen en descripción del producto para pantallas pequeñas */
+    .product-description {
+        margin-right: 10%;
+        margin-left: 10%;
+    }
+
+    /* Ajustar posición del nombre del alumno para pantallas pequeñas */
+    .alumno {
+        margin-left: 80%;
+    }
+}
+
+/* Estilos de fondo */
 .main-section {
     background-color: rgb(62, 34, 23);
     position: fixed;
