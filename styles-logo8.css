@@ -1,4 +1,6 @@
 /* Estilos para el producto 1101 Repostería */
+
+/* Estilos generales */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -35,7 +37,6 @@ h1, h2 {
 
 section {
     padding: 50px;
-
 }
 
 .product-container {
@@ -44,7 +45,6 @@ section {
     align-items: center;
     justify-content: flex-start;
     padding: 100px;
-    
 }
 
 .product-image {
@@ -76,31 +76,66 @@ section {
     margin-right: 20%;
     margin-left: 20%;
     line-height: 200%;
-    color: rgb(255,255,255);
+    color: rgb(255, 255, 255);
 }
 
 .nombre-logo {
-    color: rgb(255,255,255);
+    color: rgb(255, 255, 255);
     margin-right: 1%;
-    margin-top: 1%;   
+    margin-top: 1%;
 }
 
 .alumno {
-    color: rgb(255,255,255);
+    color: rgb(255, 255, 255);
     margin-top: 1%;
     margin-left: 85%;
     font-size: 85%;
 }
 
+/* Estilos responsive */
+@media (max-width: 768px) {
+    /* Ajustar padding en sección de producto para pantallas pequeñas */
+    .product-container {
+        padding: 30px;
+    }
+
+    /* Ajustar tamaño de la imagen del producto para pantallas pequeñas */
+    .product-image {
+        width: 40%;
+        height: 40%;
+        margin-top: -5%;
+        margin-right: 0;
+    }
+
+    /* Ajustar tamaño de la imagen interna del producto para pantallas pequeñas */
+    .product-image img {
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+    }
+
+    /* Ajustar margen en descripción del producto para pantallas pequeñas */
+    .product-description {
+        margin-right: 10%;
+        margin-left: 10%;
+    }
+
+    /* Ajustar posición del nombre del alumno para pantallas pequeñas */
+    .alumno {
+        margin-left: 75%;
+    }
+}
+
+/* Estilos de fondo */
 .main-section {
-    background-color: rgb(0, 0, 0,255);
+    background-color: rgba(0, 0, 0, 0.8);
     position: fixed;
     top: 50px; /* Ajusta esta altura según tu barra superior */
     bottom: 40px; /* Ajusta esta altura según tu pie de página */
     left: 0;
     right: 0;
     z-index: -1; /* Coloca el fondo detrás del contenido */
-  }
+}
 
 footer {
     width: 100%;
