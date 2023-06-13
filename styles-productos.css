@@ -312,13 +312,16 @@ footer {
     background-size: cover;
   }
 
+  .extra-space {
+    height: 30px; /* Altura del espacio adicional */
+  }
+
   footer {
     position: static;
     background-color: #333;
     color: #fff;
     padding: 20px;
     text-align: center;
-    margin-bottom: 50px; /* Espacio en la parte inferior de la página */
   }
 }
 
