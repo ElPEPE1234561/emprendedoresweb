@@ -201,7 +201,7 @@ footer {
  
   h1 {
     font-size: 150%;
-    margin-left: 0%;
+    margin-left: 5%;
   }
   
   section {
@@ -212,7 +212,7 @@ footer {
   .table-container {
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
     grid-gap: 15%;
-    margin-left: -8%;
+    margin-left: 15%;
     margin-top: 5%;
     margin-right: 100%;
     font-size: 70%;
