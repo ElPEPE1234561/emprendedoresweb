@@ -238,7 +238,7 @@ footer {
   
   .table-cell {
     width: 110%;
-    height: 270%;
+    height: 200%;
   }
 
   .table-cell::after {
