@@ -201,12 +201,12 @@ footer {
  
   h1 {
     font-size: 150%;
-    margin-left: 10%;
+    margin-left: 0%;
   }
   
   section {
     padding: 20px;
-    margin-left: -70%;
+    margin-left: 0%;
   }
 
   .table-container {
