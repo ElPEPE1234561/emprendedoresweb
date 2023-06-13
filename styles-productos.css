@@ -1,4 +1,4 @@
-/* Estilos para la página de productos */
+ /* Estilos para la página de productos */
 body {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -233,6 +233,19 @@ footer {
   .table-cell {
     width: 100%;
   }
+
+  .table-cell::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 15px;
+  transform: translateY(-50%) rotate(-135deg);
+  width: 10px;
+  height: 10px;
+  border-left: 4px #fff solid;
+  border-bottom: 4px #fff solid;
+  border-radius: 5px;
+}
   
   #square1,
   #square2,
