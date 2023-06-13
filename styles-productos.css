@@ -1,4 +1,4 @@
- /* Estilos para la página de productos */
+/* Estilos para la página de productos */
 body {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -81,7 +81,7 @@ p {
 
 .table-container {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   grid-gap: 20px;
   margin-left: 50px;
   margin-right: 50px;
@@ -118,145 +118,64 @@ p {
   border-radius: 5px;
 }
 
-#square1 {
-  background-image: url("CHIPACITOS.jpg");
-  background-repeat: no-repeat;
-  background-size: 100%;
-  background-position: center;
-  background-position-y: 80%;
-}
-
-#square2 {
-  background-image: url("brownie.jpg");
-  background-repeat: no-repeat;
-  background-size: 100%;
-  background-position: center;
-}
-
-#square3 {
-  background-image: url("flores.jpg");
-  background-repeat: no-repeat;
-  background-size: 100%;
-  background-position: center;
-}
-
-#square4 {
-  background-image: url("pulceras.jpg");
-  background-repeat: no-repeat;
-  background-size: 100%;
-  background-position: center;
-}
-
-#square5 {
-  background-image: url("TartaBombón.jpg");
-  background-repeat: no-repeat;
-  background-size: 100%;
-  background-position: center;
-}
-
-#square6 {
-  background-image: url("alfajores1.png");
-  background-repeat: no-repeat;
-  background-size: 100%;
-  background-position: center;
-}
-
-#square7 {
-  background-image: url("corazoneschocolate.png");
-  background-repeat: no-repeat;
-  background-size: 100%;
-  background-position: center;
-}
-
-#square8 {
-  background-image: url("gatos1.jpg");
-  background-repeat: no-repeat;
-  background-size: 100%;
-  background-position: center;
-}
-
-#square9 {
-  background-image: url("tortas.png");
-  background-repeat: no-repeat;
-  background-size: 100%;
-  background-position: center;
-}
-
-#square10 {
-  background-image: url("velas.png");
-  background-repeat: no-repeat;
-  background-size: 100%;
-  background-position: center;
-}
-
-#square11 {
-  background-image: url("pulceras1.jpg");
-  background-repeat: no-repeat;
-  background-size: 100%;
-  background-position: center;
-}
-
+#square1,
+#square2,
+#square3,
+#square4,
+#square5,
+#square6,
+#square7,
+#square8,
+#square9,
+#square10,
+#square11,
 #square12 {
-  background-image: url("snack.png");
-  background-repeat: no-repeat;
-  background-size: 100%;
-  background-position: center;
+  background-image: none;
 }
-
-footer {
-  position: static;
-  background-color: #333;
-  color: #fff;
-  padding: 20px;
-  text-align: center;
-}
-
-/* Estilos responsive */
 
 @media screen and (max-width: 768px) {
   /* Modifica los estilos para pantallas más pequeñas */
- body {
-  overflow: scroll;
- }
- 
+  body {
+    overflow: scroll;
+  }
+
   h1 {
     font-size: 150%;
     margin-left: 4%;
   }
-  
+
   section {
     padding: 20px;
     margin-left: 20%;
   }
 
   .table-container {
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 20%;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    grid-gap: 20px;
     margin-left: 10%;
     margin-top: 5%;
-    margin-right: 50%;
+    margin-right: 10%;
     font-size: 70%;
   }
-  
+
   .table-cell {
-    width: 130%;
-    height: 150%;
-    margin-top: ;
+    width: 100%;
+    height: 130px;
   }
 
   .table-cell::after {
-  content: "";
-  position: absolute;
-  top: 50%;
-  right: 5px;
-  transform: translateY(-50%) rotate(-135deg);
-  width: 10px;
-  height: 10px;
-  border-left: 4px #fff solid;
-  border-bottom: 4px #fff solid;
-  border-radius: 5px;
-}
-  
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 5px;
+    transform: translateY(-50%) rotate(-135deg);
+    width: 10px;
+    height: 10px;
+    border-left: 4px #fff solid;
+    border-bottom: 4px #fff solid;
+    border-radius: 5px;
+  }
+
   #square1,
   #square2,
   #square3,
@@ -270,5 +189,7 @@ footer {
   #square11,
   #square12 {
     background-size: cover;
+    background-position-y: center;
+    height: 100%;
   }
 }
