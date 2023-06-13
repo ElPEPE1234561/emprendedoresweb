@@ -219,6 +219,9 @@ footer {
  body {
   overflow: scroll;
  }
+
+ nav li {
+  margin-right: -5px;
  
   h1 {
     font-size: 150%;
