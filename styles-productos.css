@@ -206,13 +206,13 @@ footer {
   
   section {
     padding: 20px;
-    margin-left: 20%;
+    margin-left: -10%;
   }
 
   .table-container {
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
     grid-gap: 15%;
-    margin-left: -5%;
+    margin-left: -8%;
     margin-top: 5%;
     margin-right: 100%;
     font-size: 70%;
