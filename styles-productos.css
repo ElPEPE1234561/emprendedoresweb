@@ -243,6 +243,7 @@ footer {
     width: 110%;
     height: 200%;
     margin-top: 5%;
+   width: 100%;
   }
 
   .table-cell::after {
