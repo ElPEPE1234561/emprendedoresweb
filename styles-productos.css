@@ -252,7 +252,73 @@ footer {
     background-size: cover;
   }
 }
+/* Estilos responsive */
 
-footer{
-  posicion:static;
-  
+@media screen and (max-width: 768px) {
+  /* Modifica los estilos para pantallas más pequeñas */
+  body {
+    overflow: scroll;
+  }
+
+  h1 {
+    font-size: 150%;
+    margin-left: 5%;
+  }
+
+  section {
+    padding: 20px;
+    margin-left: 0%;
+  }
+
+  .table-container {
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    grid-gap: 18%;
+    margin-left: 12%;
+    margin-top: 5%;
+    margin-right: 100%;
+    font-size: 70%;
+  }
+
+  .table-cell {
+    width: 180%;
+    height: 270%;
+  }
+
+  .table-cell::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 5px;
+    transform: translateY(-50%) rotate(-135deg);
+    width: 10px;
+    height: 10px;
+    border-left: 4px #fff solid;
+    border-bottom: 4px #fff solid;
+    border-radius: 5px;
+  }
+
+  #square1,
+  #square2,
+  #square3,
+  #square4,
+  #square5,
+  #square6,
+  #square7,
+  #square8,
+  #square9,
+  #square10,
+  #square11,
+  #square12 {
+    background-size: cover;
+  }
+
+  footer {
+    position: static;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 50px; /* Espacio en la parte inferior de la página */
+  }
+}
+
