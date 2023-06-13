@@ -117,10 +117,6 @@ footer {
 
 @media screen and (max-width: 768px) {
   /* Modifica los estilos para pantallas más pequeñas */
-  .product-container {
-    padding: 20px;
-  }
-
   .product-image {
     width: 130px;
     height: 130px;
