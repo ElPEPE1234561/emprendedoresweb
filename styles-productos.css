@@ -240,10 +240,9 @@ footer {
   }
   
   .table-cell {
-    width: 120%;
+    width: 110%;
     height: 220%;
     margin-top: 5%;
-   width: 130%;
   }
 
   .table-cell::after {
