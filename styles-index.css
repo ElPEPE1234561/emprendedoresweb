@@ -132,3 +132,9 @@ footer {
 #animated-text p.appear {
   opacity: 1;
 }
+
+@media screen and (max-width: 768px) {
+  .content {
+    margin-top: 10%;
+  }
+}
