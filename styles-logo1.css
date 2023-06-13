@@ -122,10 +122,8 @@ footer {
   }
 
   .product-image {
-    width: 120px;
-    height: 120px;
-  -webkit-tap-highlight-color: transparent;
-  tap-highlight-color: transparent;
+    width: 130px;
+    height: 130px;
   }
 
   .product-description {
