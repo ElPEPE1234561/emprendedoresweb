@@ -276,7 +276,7 @@ footer {
     margin-left: 12%;
     margin-top: 5%;
     margin-right: 100%;
-    font-size: 150%;
+    font-size: 120%;
   }
 
   .table-cell {
@@ -290,8 +290,8 @@ footer {
     top: 50%;
     right: 5px;
     transform: translateY(-50%) rotate(-135deg);
-    width: 10px;
-    height: 10px;
+    width: 15px;
+    height: 15px;
     border-left: 4px #fff solid;
     border-bottom: 4px #fff solid;
     border-radius: 5px;
