@@ -3,6 +3,7 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
+  overflow: hidden;
 }
 
 header {
@@ -126,12 +127,12 @@ footer {
   }
 
   .product-description {
-    margin-right: 5%;
-    margin-left: 5%;
+    margin-right: 2%;
+    margin-left: 2%;
   }
 
   .alumno,
   .nombre-logo {
-    text-align: center;
+    text-align: right;
   }
 }
