@@ -215,6 +215,11 @@ footer {
 
 @media screen and (max-width: 768px) {
   /* Modifica los estilos para pantallas más pequeñas */
+
+ body {
+  overflow: none;
+ }
+ 
   h1 {
     font-size: 150%;
   }
