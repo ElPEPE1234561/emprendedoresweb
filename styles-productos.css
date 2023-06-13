@@ -216,7 +216,7 @@ footer {
 @media screen and (max-width: 768px) {
   /* Modifica los estilos para pantallas más pequeñas */
   h1 {
-    font-size: 150%;
+    font-size: 120%;
   }
   
   section {
