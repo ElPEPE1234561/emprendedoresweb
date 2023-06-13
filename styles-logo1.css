@@ -127,12 +127,11 @@ footer {
   }
 
   .product-description {
-    margin-right: 7%;
-    margin-left: 7%;
+    margin-right: 15%;
+    margin-left: 15%;
   }
 
-  .alumno,
-  .nombre-logo {
+  .alumno {
     text-align: right;
     font-size: 70%;
   }
