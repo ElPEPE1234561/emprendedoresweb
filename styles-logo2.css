@@ -1,0 +1,132 @@
+/* Estilos para el producto 1101 Repostería */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+}
+
+.navbar-item {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin-right: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.navbar-item:hover {
+    background-color: #444;
+}
+
+h1, h2 {
+    margin: 0;
+}
+
+section {
+    padding: 50px;
+}
+
+.product-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 100px;
+    
+}
+
+.product-image {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    margin-top: -8%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.product-image::before,
+.product-image::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.nombre-logo {
+    color: rgb(247, 233, 204);
+    margin-right: 0%;
+    margin-top: 1%;   
+}
+
+
+.product-image::before {
+    background-color: black;
+    z-index: -1;
+}
+
+.product-image::after {
+    background-position: center;
+    background-image: url(logo6.png);
+    background-size: 110% 115%;
+    z-index: 1;
+}
+
+.product-image img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.product-description {
+    font-style: italic;
+    text-align: center;
+    margin-right: 20%;
+    margin-left: 20%;
+    line-height: 200%;
+    color: rgb(247, 233, 204);
+}
+
+.alumno {
+    color: rgb(247, 233, 204);
+    margin-top: 1%;
+    margin-left: 87%;
+    font-size: 85%;
+}
+
+.main-section {
+    background-color: rgb(62, 34, 23);
+    position: fixed;
+    top: 50px; /* Ajusta esta altura según tu barra superior */
+    bottom: 40px; /* Ajusta esta altura según tu pie de página */
+    left: 0;
+    right: 0;
+    z-index: -1; /* Coloca el fondo detrás del contenido */
+}
+
+footer {
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    left: 0;
+    bottom: 0;
+    position: fixed;
+}

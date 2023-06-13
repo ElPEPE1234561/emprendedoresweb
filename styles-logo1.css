@@ -1,0 +1,113 @@
+/* Estilos para el producto 1101 Repostería */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+}
+
+.navbar-item {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin-right: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.navbar-item:hover {
+    background-color: #444;
+}
+
+h1, h2 {
+    margin: 0;
+}
+
+section {
+    padding: 50px;
+
+}
+
+.product-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 100px;
+    
+}
+
+.product-image {
+    background-position: center;
+    background-image: url(logo7.jpg);
+    background-size: 110% 115%;
+    width: 160px;
+    height: 160px;
+    border-radius: 80%;
+    margin-top: -2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.product-image img {
+    width: 100%;
+    height: 113%;
+    border-radius: 60%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.product-description {
+    font-style: italic;
+    margin: 0;
+    text-align: center;
+    margin-right: 20%;
+    margin-left: 20%;
+    line-height: 200%;
+    color: rgb(247, 233, 204);
+}
+
+.alumno {
+    color: rgb(247, 233, 204);
+    margin-top: 1%;
+    margin-left: 88%;
+    font-size: 85%;
+}
+
+.nombre-logo {
+    color: rgb(247, 233, 204);
+    margin-top: 1%;   
+}
+
+.main-section {
+    background-color: rgb(166, 0, 0,255);
+    position: fixed;
+    top: 0px; /* Ajusta esta altura según tu barra superior */
+    bottom: 40px; /* Ajusta esta altura según tu pie de página */
+    left: 0;
+    right: 0;
+    z-index: -1; /* Coloca el fondo detrás del contenido */
+  }
+
+footer {
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    left: 0;
+    bottom: 0;
+    position: fixed;
+}
