@@ -200,7 +200,7 @@ footer {
  }
  
   h1 {
-    font-size: 150%;
+    font-size: 200%;
     margin-left: 5%;
   }
   
@@ -290,10 +290,10 @@ footer {
     top: 50%;
     right: 5px;
     transform: translateY(-50%) rotate(-135deg);
-    width: 15px;
-    height: 15px;
-    border-left: 4px #fff solid;
-    border-bottom: 4px #fff solid;
+    width: 20px;
+    height: 20px;
+    border-left: 5px #fff solid;
+    border-bottom: 5px #fff solid;
     border-radius: 5px;
   }
 
