@@ -1,4 +1,6 @@
 /* Estilos para el producto 1101 Repostería */
+
+/* Estilos generales */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -35,7 +37,6 @@ h1, h2 {
 
 section {
     padding: 50px;
-
 }
 
 .product-container {
@@ -44,63 +45,97 @@ section {
     align-items: center;
     justify-content: flex-start;
     padding: 100px;
-    
 }
 
 .product-image {
     background-position: center;
-    background-image: url(logo3.jpg);
-    background-size: 2%00 125%;
-    width: 200px;
-    height: 200px;
-    border-radius: 100%;
-    margin-top: -8%;
+    background-image: url(logo8.png);
+    background-size: 100% 100%;
+    width: 15%;
+    height: 50%;
+    border-radius: 80%;
     margin-right: 20px;
     display: flex;
+    margin-top: -8%;
     justify-content: center;
     align-items: center;
     overflow: hidden;
 }
 
 .product-image img {
-    width: 110%;
-    height: 130%;
+    width: 100%;
+    height: 100%;
     border-radius: 60%;
     object-fit: cover;
-    object-position: top;
-}
-
-.alumno {
-    color: rgb(0,0,0);
-    margin-top: 1%;
-    margin-left: 83%;
-    font-size: 85%;
-}
-
-.nombre-logo {
-    color: rgb(0,0,0);
-    margin-right: 1%;
-    margin-top: 1%;   
+    object-position: center;
 }
 
 .product-description {
     font-style: italic;
     margin: 0;
     margin-right: 20%;
-    line-height: 200%;
     margin-left: 20%;
-    color: rgb(0,0,0,);
+    line-height: 200%;
+    color: rgb(255, 255, 255);
 }
 
+.nombre-logo {
+    color: rgb(255, 255, 255);
+    margin-right: 1%;
+    margin-top: 1%;
+}
+
+.alumno {
+    color: rgb(255, 255, 255);
+    margin-top: 1%;
+    margin-left: 85%;
+    font-size: 85%;
+}
+
+/* Estilos responsive */
+@media (max-width: 768px) {
+    /* Ajustar padding en sección de producto para pantallas pequeñas */
+    .product-container {
+        padding: 30px;
+    }
+
+    /* Ajustar tamaño de la imagen del producto para pantallas pequeñas */
+    .product-image {
+        width: 40%;
+        height: 40%;
+        margin-top: -5%;
+        margin-right: 0;
+    }
+
+    /* Ajustar tamaño de la imagen interna del producto para pantallas pequeñas */
+    .product-image img {
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+    }
+
+    /* Ajustar margen en descripción del producto para pantallas pequeñas */
+    .product-description {
+        margin-right: 10%;
+        margin-left: 10%;
+    }
+
+    /* Ajustar posición del nombre del alumno para pantallas pequeñas */
+    .alumno {
+        margin-left: 75%;
+    }
+}
+
+/* Estilos de fondo */
 .main-section {
-    background-color: rgb(239, 227, 213);
+    background-color: rgba(0, 0, 0, 0.8);
     position: fixed;
     top: 50px; /* Ajusta esta altura según tu barra superior */
     bottom: 40px; /* Ajusta esta altura según tu pie de página */
     left: 0;
     right: 0;
     z-index: -1; /* Coloca el fondo detrás del contenido */
-  }
+}
 
 footer {
     width: 100%;
