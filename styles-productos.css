@@ -232,7 +232,7 @@ footer {
 
   .table-container {
     grid-template-columns: repeat(2, 1fr);
-    grid-gap: 10%;
+    grid-gap: 40%;
     margin-left: 20px;
     margin-top: 5%;
     margin-right: 20px;
