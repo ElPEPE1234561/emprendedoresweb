@@ -217,7 +217,7 @@ footer {
   /* Modifica los estilos para pantallas más pequeñas */
 
  body {
-  overflow: none;
+  overflow: scroll;
  }
  
   h1 {
