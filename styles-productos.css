@@ -216,7 +216,7 @@ footer {
 @media screen and (max-width: 768px) {
   /* Modifica los estilos para pantallas más pequeñas */
   h1 {
-    font-size: 90%;
+    font-size: 150%;
   }
   
   section {
@@ -228,6 +228,7 @@ footer {
     grid-template-columns: repeat(2, 1fr);
     margin-left: 20px;
     margin-right: 20px;
+    font-size: 80%;
   }
   
   .table-cell {
