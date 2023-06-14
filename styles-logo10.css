@@ -80,7 +80,7 @@ section {
 
 .product-image::after {
     background-position: center;
-    background-image: url(logo6.png);
+    background-image: url(logovives.png);
     background-size: 110% 115%;
     z-index: 1;
 }
