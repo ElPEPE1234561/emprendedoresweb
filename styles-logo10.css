@@ -128,14 +128,8 @@ footer {
 
     .product-image img {
         width: 180%;
-        height: 100%;
+        height: 160%;
         border-radius: 60%;
-    }
-
-     .product-description {
-        margin-right: -23%;
-        margin-left: -20%;
-        font-size: 40%;
     }
 
     /* Ajustar posición del nombre del alumno para pantallas pequeñas */
@@ -147,6 +141,6 @@ footer {
     .product-description {
         margin-right: -20%;
         margin-left: -15%;
-        font-size: 80%;
+        font-size: 85%;
     }
 }
