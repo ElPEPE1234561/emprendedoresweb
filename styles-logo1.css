@@ -115,12 +115,12 @@ footer {
 
 /* Estilos responsive */
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 420px) and (max-width: 414px) and (max-width: 768px) (max-heigth: 736px) {
   /* Modifica los estilos para pantallas más pequeñas */
-.product-container {
-  padding:20px
-}
-  
+  .product-container {
+    padding: 20px;
+  }
+
   .product-image {
     width: 130px;
     height: 130px;
