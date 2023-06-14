@@ -130,7 +130,7 @@ section {
 
 /* Estilos de fondo */
 .main-section {
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0);
     position: fixed;
     top: 50px; /* Ajusta esta altura según tu barra superior */
     bottom: 40px; /* Ajusta esta altura según tu pie de página */
