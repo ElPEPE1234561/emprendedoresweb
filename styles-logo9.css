@@ -63,8 +63,8 @@ section {
 }
 
 .product-image img {
-    width: 140%;
-    height: 100%;
+    width: 180%;
+    height: 180%;
     border-radius: 60%;
     object-fit: cover;
     object-position: center;
@@ -73,8 +73,8 @@ section {
 .product-description {
     font-style: italic;
     margin: 0;
-    margin-right: 20%;
-    margin-left: 20%;
+    margin-right: -20%;
+    margin-left: -20%;
     line-height: 200%;
     color: rgb(0,0,0);
 }
@@ -88,7 +88,7 @@ section {
 .alumno {
     color: rgb(0,0,0);
     margin-top: 1%;
-    margin-left: 85%;
+    margin-left: 90%;
     font-size: 85%;
 }
 
