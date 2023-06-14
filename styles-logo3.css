@@ -109,6 +109,11 @@ section {
 /* Estilos responsive */
 @media (max-width: 768px) {
     /* Ajustar padding en sección de producto para pantallas pequeñas */
+
+    body {
+        overflow: scroll;
+    }
+    
     .product-container {
         padding: 50px;
     }
