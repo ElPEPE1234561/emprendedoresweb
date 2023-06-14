@@ -106,7 +106,7 @@ p {
   }
 
 .table-cell:hover {
-  transform: scale(1.07);
+  transform: scale(1.09);
 }
 
 .table-cell::after {
