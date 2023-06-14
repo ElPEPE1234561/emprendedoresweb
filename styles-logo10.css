@@ -127,7 +127,7 @@ footer {
     }
 
     .product-image img {
-        width: 180%;
+        width: 160%;
         height: 160%;
         border-radius: 60%;
     }
@@ -141,6 +141,6 @@ footer {
     .product-description {
         margin-right: -20%;
         margin-left: -15%;
-        font-size: 85%;
+        font-size: 95%;
     }
 }
