@@ -127,20 +127,20 @@ footer {
     }
 
     .product-image img {
-        width: 100%;
+        width: 120%;
         height: 100%;
         border-radius: 60%;
     }
 
      .product-description {
-        margin-right: -20%;
+        margin-right: -23%;
         margin-left: -20%;
-        font-size: 90%;
+        font-size: 70%;
     }
 
     /* Ajustar posición del nombre del alumno para pantallas pequeñas */
     .alumno {
-        margin-left: 50%;
+        margin-left: 40%;
     }
 }
 
