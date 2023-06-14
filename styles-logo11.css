@@ -93,7 +93,7 @@ section {
 }
 
 .main-section {
-    background-color: rgb(214, 186, 185);
+    background-color: rgb(221, 205, 189);
     position: fixed;
     top: 50px; /* Ajusta esta altura según tu barra superior */
     bottom: 40px; /* Ajusta esta altura según tu pie de página */
@@ -127,14 +127,14 @@ footer {
     }
 
     .product-image img {
-        width: 120%;
+        width: 150%;
         height: 160%;
         border-radius: 60%;
     }
 
     /* Ajustar posición del nombre del alumno para pantallas pequeñas */
     .alumno {
-        margin-left: 40%;
+        margin-left: 50%;
     }
 }
 
