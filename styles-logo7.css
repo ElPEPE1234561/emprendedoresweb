@@ -116,14 +116,15 @@ section {
 
     /* Ajustar margen en descripción del producto para pantallas pequeñas */
     .product-description {
-        margin-right: -20%;
-        margin-left: -30;
+        margin-right: 0%;
+        margin-left: 0%;
+        text-aling: center;
         font-size: 85%;
     }
 
     /* Ajustar posición del nombre del alumno para pantallas pequeñas */
     .alumno {
-        margin-left: 20%;
+        margin-left: 10%;
     }
 }
 
