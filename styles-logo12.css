@@ -54,7 +54,7 @@ section {
     width: 160px;
     height: 150px;
     border-radius: 0%;
-    margin-top: -11%;
+    margin-top: -30%;
     margin-right: 20px;
     display: flex;
     justify-content: center;
@@ -80,7 +80,7 @@ section {
     height: 113%;
     border-radius: 60%;
     object-fit: cover;
-    margin-top: 30%;
+    margin-top: -30%;
     object-position: center;
 }
 
