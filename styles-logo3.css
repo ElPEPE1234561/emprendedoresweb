@@ -130,7 +130,7 @@ section {
 
     /* Ajustar posición del nombre del alumno para pantallas pequeñas */
     .alumno {
-        margin-left: 80%;
+        margin-left: 50%;
     }
 }
 
