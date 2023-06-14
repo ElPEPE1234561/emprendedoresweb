@@ -65,7 +65,7 @@ section {
 .alumno {
     color: rgb(255, 255, 255);
     margin-top: 1%;
-    margin-left: 80%;
+    margin-left: 85%;
     font-size: 85%;
 }
 
@@ -86,8 +86,8 @@ section {
 .product-description {
     font-style: italic;
     margin: 0;
-    margin-right: -20%;
-    margin-left: -20%;
+    margin-right: -40%;
+    margin-left: -40%;
     line-height: 200%;
     color: rgb(255,255,255);
 }
