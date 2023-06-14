@@ -123,8 +123,8 @@ section {
 
     /* Ajustar margen en descripción del producto para pantallas pequeñas */
     .product-description {
-        margin-right: -250%;
-        margin-left: -250%;
+        margin-right: -25%;
+        margin-left: -25%;
         font-size: 90%;
     }
 
@@ -154,5 +154,5 @@ footer {
     left: 0;
     bottom: 0;
     position: fixed;
-    margin-top: 100%;
+    margin-top: 150%;
 }
