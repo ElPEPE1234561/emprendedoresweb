@@ -115,24 +115,23 @@ footer {
 
 /* Estilos responsive */
 
-@media screen (max-width: 768px) {
+@media screen and (max-width: 768px) {
   /* Modifica los estilos para pantallas más pequeñas */
-  .product-container {
-    padding: 20px;
-  }
-
+.product-container {
+  padding:20px
+}
+  
   .product-image {
     width: 130px;
     height: 130px;
   }
 
   .product-description {
-    margin-right: -15%;
-    margin-left: -15%;
+    margin-right: -10%;
+    margin-left: -10%;
   }
 
   .alumno {
     text-align: right;
     font-size: 70%;
   }
-}
