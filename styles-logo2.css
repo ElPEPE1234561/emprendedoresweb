@@ -122,7 +122,7 @@ section {
     .product-image {
         width: 150px;
         height: 150px;
-        margin-top: -12%;
+        margin-top: -20%;
     }
 
     /* Ajustar margen en descripción del producto para pantallas pequeñas */
@@ -133,7 +133,7 @@ section {
 
     /* Ajustar posición del nombre del alumno para pantallas pequeñas */
     .alumno {
-        margin-left: 60%;
+        margin-left: 50%;
     }
 }
 
