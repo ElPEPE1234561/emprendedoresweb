@@ -109,8 +109,8 @@ section {
 
     /* Ajustar tamaño de la imagen interna del producto para pantallas pequeñas */
     .product-image img {
-        width: 100%;
-        height: 100%;
+        width: 120%;
+        height: 120%;
         border-radius: 50%;
     }
 
@@ -124,7 +124,7 @@ section {
 
     /* Ajustar posición del nombre del alumno para pantallas pequeñas */
     .alumno {
-        margin-left: 30%;
+        margin-left: 37%;
         color: rgb(0,0,0)
     }
 }
