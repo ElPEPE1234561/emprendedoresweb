@@ -109,8 +109,8 @@ section {
 
     /* Ajustar tamaño de la imagen interna del producto para pantallas pequeñas */
     .product-image img {
-        width: 120%;
-        height: 80%;
+        width: 80%;
+        height: 100%;
         border-radius: 50%;
     }
 
