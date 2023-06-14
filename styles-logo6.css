@@ -116,8 +116,8 @@ section {
 
     /* Ajustar margen en descripción del producto para pantallas pequeñas */
     .product-description {
-        margin-right: -30%;
-        margin-left: -25%;
+        margin-right: -40%;
+        margin-left: -35%;
         font-size: 85%;
     }
 
