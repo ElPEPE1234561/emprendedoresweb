@@ -127,8 +127,9 @@ section {
 
     /* Ajustar margen en descripción del producto para pantallas pequeñas */
     .product-description {
-        margin-right: -15%;
-        margin-left: -15%;
+        margin-right: -20%;
+        margin-left: -20%;
+        font-size: 80%;
     }
 
     /* Ajustar posición del nombre del alumno para pantallas pequeñas */
