@@ -101,8 +101,8 @@ section {
 
     /* Ajustar tamaño de la imagen del producto para pantallas pequeñas */
     .product-image {
-        width: 40%;
-        height: 40%;
+        width: 50%;
+        height: 50%;
         margin-top: -5%;
         margin-right: 0;
     }
@@ -119,18 +119,20 @@ section {
         margin-right: -20%;
         margin-left: -15%;
         font-size: 110%;
+        color: rgb(0,0,0)
     }
 
     /* Ajustar posición del nombre del alumno para pantallas pequeñas */
     .alumno {
-        margin-left: 35%;
+        margin-left: 30%;
+        color: rgb(0,0,0)
     }
 }
 
 
 /* Estilos de fondo */
 .main-section {
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgb(239, 227, 213);
     position: fixed;
     top: 50px; /* Ajusta esta altura según tu barra superior */
     bottom: 40px; /* Ajusta esta altura según tu pie de página */
