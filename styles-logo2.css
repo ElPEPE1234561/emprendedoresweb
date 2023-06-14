@@ -52,7 +52,7 @@ section {
     position: relative;
     width: 200px;
     height: 200px;
-    margin-top: -8%;
+    margin-top: -15%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -98,8 +98,8 @@ section {
 .product-description {
     font-style: italic;
     text-align: center;
-    margin-right: 20%;
-    margin-left: 20%;
+    margin-right: -10%;
+    margin-left: -10%;
     line-height: 200%;
     color: rgb(247, 233, 204);
 }
