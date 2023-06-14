@@ -85,7 +85,7 @@ p {
     grid-gap: 20px;
     font-size: 20px;
     padding-top: 0%;
-    margin-left: 40px;
+    margin-left: 35px;
     margin-right: 500px;
   }
 
@@ -97,8 +97,8 @@ p {
     padding: 10px;
     text-align: center;
     transition: transform 0.2s;
-    width: 400px;
-    height: 110px;
+    width: 350px;
+    height: 10  0px;
     display: flex;
     align-items: center;
     justify-content: center;
