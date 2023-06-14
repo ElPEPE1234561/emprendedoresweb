@@ -119,6 +119,9 @@ footer {
         padding: 30px;
     }
 
+    .nombre-logo {
+        margin-top: -30%
+    }
     .product-image {
         width: 50%;
         height: auto;
@@ -127,7 +130,7 @@ footer {
     }
 
     .product-image img {
-        width: 225%;
+        width: 300%;
         height: 160%;
         border-radius: 60%;
     }
@@ -142,5 +145,6 @@ footer {
         margin-right: -20%;
         margin-left: -15%;
         font-size: 95%;
+        margin-top:-30%;
     }
 }
