@@ -123,9 +123,9 @@ section {
 
     /* Ajustar margen en descripción del producto para pantallas pequeñas */
     .product-description {
-        margin-right: -40%;
-        margin-left: -40%;
-        font-size: 80%;
+        margin-right: -250%;
+        margin-left: -250%;
+        font-size: 90%;
     }
 
     /* Ajustar posición del nombre del alumno para pantallas pequeñas */
@@ -154,4 +154,5 @@ footer {
     left: 0;
     bottom: 0;
     position: fixed;
+    margin-top: 100%;
 }
