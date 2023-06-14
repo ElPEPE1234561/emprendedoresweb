@@ -49,7 +49,7 @@ section {
 
 .product-image {
     background-position: center;
-    background-image: url();
+    background-image: url(l);
     background-size: 100% 100%;
     width: 15%;
     height: 50%;
@@ -76,7 +76,7 @@ section {
     margin-right: 20%;
     margin-left: 20%;
     line-height: 200%;
-    color: rgb(255, 255, 255);
+    color: rgb(0,0,0);
 }
 
 .nombre-logo {
@@ -86,7 +86,7 @@ section {
 }
 
 .alumno {
-    color: rgb(255, 255, 255);
+    color: rgb(0,0,0);
     margin-top: 1%;
     margin-left: 85%;
     font-size: 85%;
@@ -109,8 +109,8 @@ section {
 
     /* Ajustar tamaño de la imagen interna del producto para pantallas pequeñas */
     .product-image img {
-        width: 80%;
-        height: 100%;
+        width: 120%;
+        height: 120%;
         border-radius: 50%;
     }
 
