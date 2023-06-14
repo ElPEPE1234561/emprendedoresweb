@@ -63,7 +63,7 @@ section {
 }
 
 .product-image img {
-    width: 100%;
+    width: 140%;
     height: 100%;
     border-radius: 60%;
     object-fit: cover;
