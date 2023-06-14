@@ -122,12 +122,12 @@ footer {
     .product-image {
         width: 50%;
         height: auto;
-        margin-top: -30%;
+        margin-top: -50%;
         margin-right: 0;
     }
 
     .product-image img {
-        width: 150%;
+        width: 225%;
         height: 160%;
         border-radius: 60%;
     }
