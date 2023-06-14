@@ -103,13 +103,13 @@ section {
     .product-image {
         width: 50%;
         height: 50%;
-        margin-top: -5%;
+        margin-top: -10%;
         margin-right: 0;
     }
 
     /* Ajustar tamaño de la imagen interna del producto para pantallas pequeñas */
     .product-image img {
-        width: 120%;
+        width: 140%;
         height: 120%;
         border-radius: 50%;
     }
