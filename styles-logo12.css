@@ -50,11 +50,11 @@ section {
 .product-image {
     background-position: center;
     background-image: url(l);
-    background-size: 200% 205%;
+    background-size: 190% 195%;
     width: 20%;
     height: 20%;
     border-radius: 0%;
-    margin-top: -7%;
+    margin-top: -10%;
     margin-right: 20px;
     display: flex;
     justify-content: center;
