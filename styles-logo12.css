@@ -104,7 +104,7 @@ section {
     left: 0;
     right: 0;
     z-index: -1; /* Coloca el fondo detrás del contenido */
-    overflow-y: scroll; /* Permite el desplazamiento vertical en dispositivos móviles */
+    overflow-y: hidden; /* Permite el desplazamiento vertical en dispositivos móviles */
 }
 
 footer {
@@ -125,6 +125,10 @@ footer {
         padding: 50px;
     }
 
+    .main-section {
+        overflow-y: scroll; /* Permite el desplazamiento vertical en dispositivos móviles */
+    }
+    
     /* Ajustar tamaño de la imagen del producto para pantallas pequeñas */
     .product-image {
         width: 150px;
