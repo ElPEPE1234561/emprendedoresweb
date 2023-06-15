@@ -85,8 +85,8 @@ section {
 .product-description {
     font-style: italic;
     margin: 0;
-    margin-right: 40%;
-    margin-left: 40%;
+    margin-right: 0%;
+    margin-left: 0%;
     line-height: 200%;
     color: rgb(123, 86, 78);
 }
