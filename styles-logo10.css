@@ -50,9 +50,9 @@ section {
 .product-image {
     background-position: center;
     background-image: url(logovives.jpg);
-    background-size: 150% 115%;
-    width: 200px;
-    height: 200px;
+    background-size: 150% 145%;
+    width: 50%;
+    height: 50%;
     border-radius: 80%;
     margin-top: -10%;
     margin-right: 20px;
