@@ -124,6 +124,7 @@ footer {
   .product-image {
     width: 130px;
     height: 130px;
+    margin-top: 5%;
   }
 
   .product-description {
