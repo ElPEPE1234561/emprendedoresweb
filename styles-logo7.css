@@ -140,6 +140,7 @@ section {
     bottom: 40px; /* Ajusta esta altura según tu pie de página */
     left: 0;
     right: 0;
+    overflow-y: scroll;
     z-index: -1; /* Coloca el fondo detrás del contenido */
 }
 
