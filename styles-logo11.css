@@ -80,7 +80,7 @@ section {
 .nombre-logo {
     color: rgb(255, 255, 255);
     margin-right: 1%;
-    margin-top: -10%;   
+    margin-top: %;   
 }
 
 .product-description {
@@ -88,7 +88,7 @@ section {
     margin: 0;
     margin-right: 20%;
     margin-left: 20%;
-    margin-top: -10%;
+    margin-top: ;
     line-height: 200%;
     color: rgb(255,255,255);
 }
