@@ -94,7 +94,7 @@ section {
 }
 
 .main-section {
-  background-color: rgb(166, 0, 0, 255);
+  background-color: rgb(166, 0, 0,);
   position: fixed;
   top: 0;
   bottom: 40px; /* Ajusta esta altura según tu pie de página */
