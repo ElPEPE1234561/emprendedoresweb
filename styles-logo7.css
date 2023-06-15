@@ -80,6 +80,17 @@ section {
     color: rgba(250,238,225,255);
 }
 
+.main-section {
+    background-color: rgb(190, 138, 98);
+    position: fixed;
+    top: 50px; /* Ajusta esta altura según tu barra superior */
+    bottom: 40px; /* Ajusta esta altura según tu pie de página */
+    left: 0;
+    right: 0;
+    overflow-y: hidden;
+    z-index: -1; /* Coloca el fondo detrás del contenido */
+}
+
 .nombre-logo {
     color: rgba(250,238,225,255);
     margin-right: 1%;
