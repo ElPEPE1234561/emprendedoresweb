@@ -100,6 +100,7 @@ section {
   bottom: 40px; /* Ajusta esta altura según tu pie de página */
   left: 0;
   right: 0;
+  overflow-y: hidden;
   z-index: -1;
 }
 
