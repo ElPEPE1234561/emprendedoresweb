@@ -127,6 +127,7 @@ section {
     /* Ajustar posición del nombre del alumno para pantallas pequeñas */
     .alumno {
         margin-left: 27%;
+        margin-top: 1%;
     }
 }
 
