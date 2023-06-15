@@ -140,17 +140,17 @@ footer {
 
     /* Ajustar tamaño de la imagen del producto para pantallas pequeñas */
     .product-image {
-        width: 150px;
-        height: 150px;
+        width: 140px;
+        height: 140px;
         margin-top: -30%;
         margin-right: 2%;
     }
 
     /* Ajustar margen en descripción del producto para pantallas pequeñas */
     .product-description {
-        margin-right: -30%;
-        margin-left: -30%;
-        font-size: 90%;
+        margin-right: -35%;
+        margin-left: -35%;
+        font-size: 70%;
     }
 
     /* Ajustar posición del nombre del alumno para pantallas pequeñas */
