@@ -108,7 +108,7 @@ section {
 /* Estilos responsive */
 @media (max-width: 768px) {
     body {
-        overflow-x: hidden;
+        overflow-y: scroll;
     }
 
     .main-section {
