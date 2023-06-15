@@ -71,7 +71,7 @@ section {
     margin-top: 1%;
     margin-left: 85%;
     font-size: 75%;
-    position: fixed;
+    position: absolute;
 }
 
 .product-image img {
