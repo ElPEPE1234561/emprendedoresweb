@@ -53,13 +53,12 @@ section {
     background-size: 100% 100%;
     width: 20%;
     height: 20%;
-    border-radius: 80%;
+    border-radius: 100%;
     margin-top: -10%;
     margin-right: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
-    overflow: hidden;
 }
 
 .product-image img {
