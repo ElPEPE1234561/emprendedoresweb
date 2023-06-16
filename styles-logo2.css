@@ -70,7 +70,8 @@ section {
 .nombre-logo {
     color: rgb(247, 233, 204);
     margin-right: 0%;
-    margin-top: 1%;   
+    margin-top: 1%;
+    white-space: nowrap;
 }
 
 
