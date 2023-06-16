@@ -102,7 +102,7 @@ p {
     height: 10  0px;
     display: flex;
     align-items: center;
-    border-right: 200px;
+    border-right: 100%;
     justify-content: center;
   }
 
